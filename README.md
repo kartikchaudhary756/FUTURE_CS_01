@@ -10,7 +10,7 @@ The task involved performing a read-only vulnerability assessment of a publicly 
 
 ## Target
 
-**Website:** http://owasp-juice.shop (OWASP Juice Shop project website, served from GitHub Pages)
+**Website:** http://owasp-juice.shop 
 
 **Assessment Date:** 21 October 2026
 
