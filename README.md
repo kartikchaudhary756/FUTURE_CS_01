@@ -10,7 +10,7 @@ The task involved performing a read-only vulnerability assessment of a publicly 
 
 ## Target
 
-**Website:** http://owasp-juice.shop
+**Website:** http://owasp-juice.shop (OWASP Juice Shop project website, served from GitHub Pages)
 
 **Assessment Date:** 21 October 2026
 
@@ -76,6 +76,10 @@ The assessment was performed using a **read-only and non-invasive approach**.
 | F-05 | X-Content-Type-Options Header Missing | Low |
 | F-06 | Information Disclosure - Suspicious Comments | Informational |
 
+### Additional Observation
+
+The site is hosted on GitHub Pages, so GitHub sets its response headers. The Strict-Transport-Security header is already present, so it is not listed as a finding. Other ZAP alerts, such as HTTP Only Site and Retrieved from Cache, were not included because they are informational or need more context.
+
 ---
 
 ## Evidence
@@ -84,6 +88,7 @@ Evidence collected during the assessment is organized in the following directori
 
 - `Nmap/` — Nmap scan outputs and screenshots
 - `owasp_zap/` — OWASP ZAP evidence and findings
+- `Report/` — Final vulnerability assessment report
 
 Sensitive cookie/session values and other potentially sensitive information have been excluded or redacted from published evidence.
 
@@ -91,8 +96,8 @@ Sensitive cookie/session values and other potentially sensitive information have
 
 ## Report
 
-The complete OWASP ZAP findings are available in:
+The complete vulnerability assessment report is available in:
 
 ```text
-owasp_zap/zap-findings.md
+Report/FUTURE_CS_01_Vulnerability_Assessment_Report_owasp-juice-shop_2.pdf
 ```
