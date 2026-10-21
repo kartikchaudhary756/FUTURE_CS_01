@@ -12,7 +12,7 @@ The task involved performing a read-only vulnerability assessment of a publicly 
 
 **Website:** http://owasp-juice.shop
 
-**Assessment Date:** [add date]
+**Assessment Date:** 21 October 2026
 
 **Assessment Type:** Read-only Passive Web Application Assessment
 
